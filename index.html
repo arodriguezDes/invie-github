@@ -10,6 +10,20 @@
 			max-width: 100%;
 			vertical-align: top;
 		}
+
+		img#responsive{
+			display: none;
+		}
+
+		@media screen and (max-width: 768px){
+			img#responsive{
+				display: block;
+			}
+
+			img{
+				display: none;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -18,5 +32,6 @@
 	<img src="acustica.jpg">
 	<img src="clasica.jpg">
 	<img src="footer.jpg">
+	<img src="invie-responsive.png" id="responsive">
 </body>
 </html>
